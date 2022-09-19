@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- the important part here is naming the correct .css file you want to load! -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.css') }}"> 
+      
+    </head>
+    <body>
 
+
+
+
+        <h1> Welcome to Online Shopping at MyStore</h1>
+        <p> Get everything from your favorite, MyStore!</p>
+        <button class="btn btn-primary"> Back-to-school Essentials </button> <!-- class="btn btn-primary" it is telling the styling we want to apply based on https://getbootstrap.com/docs/5.2/components/buttons/  -->
+
+
+
+<!-- now lets take a look at nav bar
+ https://getbootstrap.com/docs/5.2/components/navs&tabs/ -->-->
+    <ul class="nav">
+        <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">School Supplies</a>
+         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Water Bottles</a>
+         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Backpacks</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">Deals</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link disabled">Disabled</a>
+         </li>
+     </ul>
+
+
+    </body>
+</html>
