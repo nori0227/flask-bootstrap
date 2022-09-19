@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- the important part here is naming the correct .css file you want to load! -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.css') }}"> 
+      
+    </head>
+    <body>
+
+
+
+
+        <h1> Back-to-school Supply List</h1>
+        <p> School essentials</p>
+
+
+<!-- now lets take a look at card listing
+https://getbootstrap.com/docs/5.2/components/card/ -->-->
+        <div class="card" style="width: 18rem;">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Notebook</li>
+              <li class="list-group-item">Backpack</li>
+              <li class="list-group-item">Water bottle</li>
+            </ul>
+          </div>
+
+        <button class="btn btn-primary"> MyPlace.com </button> <!-- class="btn btn-primary" it is telling the styling we want to apply based on https://getbootstrap.com/docs/5.2/components/buttons/  -->
+
+
+
+
+
+    </body>
+</html>
+
 
